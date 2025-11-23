@@ -25,7 +25,9 @@ classifiers = [
     "Programming Language :: Python :: 3.14",
 ]
 
-dependencies = []
+dependencies = [
+    "nbprint-plugin-opsgenie",
+]
 
 [project.optional-dependencies]
 develop = [
