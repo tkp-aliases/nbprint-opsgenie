@@ -141,14 +141,12 @@ js/node_modules
 js/test-results
 js/playwright-report
 js/*.tgz
-nbprint_opsgenie/extension
 
 # Jupyter
 .ipynb_checkpoints
 .autoversion
 Untitled*.ipynb
-!nbprint_opsgenie/extension/nbprint_opsgenie.json
-!nbprint_opsgenie/extension/install.json
+nbprint_opsgenie/extension
 nbprint_opsgenie/nbextension
 nbprint_opsgenie/labextension
 
@@ -157,3 +155,7 @@ nbprint_opsgenie/labextension
 
 # Rust
 target
+
+# Hydra
+outputs/
+multirun/
