@@ -1,4 +1,4 @@
-from nbprint_opsgenie import *  # noqa
+from nbprint_opsgenie import *
 
 
 def test_all():
